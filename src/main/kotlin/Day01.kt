@@ -22,6 +22,7 @@ class Day01(input: List<Int>) {
             match?.let {
                 val result = match[0] * match[1]
                 println(result.toString())
+                return
             }
         }
     }
