@@ -1,0 +1,11 @@
+.idea/
+.gradle
+/build/
+*.jar
+/out/
+gradlew
+gradlew.bat
+settings.gradle.kts
+gradle/
+gradle.properties
+build.gradle.kts
