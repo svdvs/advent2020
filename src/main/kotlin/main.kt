@@ -1,4 +1,4 @@
 fun main() {
     val input = Utils.getInputList("input.txt")
-    Day02(input).solve1()
+    Day02(input).solve2()
 }
