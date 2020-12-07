@@ -8,4 +8,11 @@ object Utils {
         inputStream.bufferedReader().forEachLine { list.add(it.toInt()) }
         return list
     }
+
+    fun getInputList(fileName: String) : List<String> {
+        val inputStream: InputStream = File(fileName).inputStream()
+        val list = mutableListOf<String>()
+        inputStream.bufferedReader().forEachLine { list.add(it) }
+        return list
+    }
 }
